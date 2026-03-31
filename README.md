@@ -4,9 +4,13 @@ Fontstash bindings for Chemical.
 
 ## Usage
 
-```chemical
-import fontstash
+```chmod
+import "chemicallang/fontstash"
+```
 
+### Example
+
+```chemical
 func main() : int {
     var params = fontstash::FONSparams {
         width : 512,
